@@ -20,7 +20,7 @@ public class DienTichCacHinhByHieu {
 	        double dienTichHinhChuNhat = tinhDienTichHinhChuNhat(chieuDai, chieuRong);
 	        System.out.println("Diện tích của hình chữ nhật là: " + dienTichHinhChuNhat);
 	        
-	        scanner.close();
+	        scanner.close();//
 	    }
 	    
 	    public static double tinhDienTichHinhVuong(double canh) {
