@@ -3,9 +3,9 @@ public class DienTichCacHinhByHieu {
 	 public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        
-	        System.out.println("Nhập độ dài cạnh của hình vuông:");//Doan 1
+	        System.out.println("Nhập độ dài cạnh của hình vuông:");
 	        double canh = scanner.nextDouble();
-	        double dienTichHinhVuong = tinhDienTichHinhVuong(canh);
+	        double dienTichHinhVuong = tinhDienTichHinhVuong(canh);//ok
 	        System.out.println("Diện tích của hình vuông là: " + dienTichHinhVuong);
 	        
 	        System.out.println("Nhập bán kính của hình tròn:");
