@@ -28,7 +28,7 @@ public class DienTichCacHinhByHieu {
 	    }
 	    
 	    public static double tinhDienTichHinhTron(double banKinh) {
-	        return Math.PI * banKinh * banKinh;
+	        return banKinh * banKinh;
 	    }
 	    
 	    public static double tinhDienTichHinhChuNhat(double chieuDai, double chieuRong) {
